@@ -1,0 +1,14 @@
+/* ==============Mobile Layout================== */
+@media only screen and (min-width:200px) and (max-width:500px){
+    .formContainer {width: 100%;transform: none;} 
+
+ }
+ /*================Button Phone Layout====================== */
+ @media only screen and (min-width:150px) and (max-width:390px){
+    .formContainer {width: 100%;transform: none;} 
+    .left_div {float:none;margin-left: 4%;width: 92%;}
+    .right_div {float:none;margin-left: 4%;width: 92%;}
+    h1{font-size: 25px;}
+    .gender_button {
+        padding: 0px;font-size: 14px;}
+ }

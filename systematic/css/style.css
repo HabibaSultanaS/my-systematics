@@ -1,0 +1,402 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*============================================================
+Common CSS
+============================================================*/
+
+body{color: #666666;
+    background-color: #ffffff;
+    font-family: Georgia;
+    line-height: 1.5em;
+   }
+
+.aligenleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    max-width: 400px;
+    width: 40%;
+}
+
+.aligenright{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.aligencenter{
+    display: block;
+    margin: 0px auto 15px;
+}
+/*============================================================
+Common CSS
+============================================================*/
+
+
+
+
+
+/*============================================================
+Header CSS
+============================================================*/
+
+
+#mainManue{background-color:#ba2e1f ;
+            font-size: 14px;
+            color: #ffffff;
+            overflow: hidden;
+            max-width: 1000px;
+            width: 96%;
+            margin: auto;
+            padding: 10px;}
+
+
+.slice{float: left;
+    max-width: 700px;
+    width: 63%;}
+
+
+
+.slice ul li{display: inline-block;  
+            padding: 7px;
+            }
+
+.slice ul li:hover{background-color: #a74439;}
+.slice ul li a{text-decoration: none;
+              color: #ffffff;}
+
+.searchArea{float: right;
+            max-width: 300px;
+            width: 37%;
+            
+}
+
+#submit{background-image: url(img/search.png);
+        background-position: center;
+        background-repeat: no-repeat; 
+        width: 40px;
+        height: 40px;
+        border: 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        }
+#searchBox {
+        width: 80%;
+        border: 0px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 10px;
+        }
+.form1{max-width: 210px;
+        width: 100%;
+        background-color: #ffffff;
+        border-radius:10px;
+        display: inline-flex;}
+
+
+.secondMainBlock{ max-width: 1000px;
+                width: 100%;
+                height:70px;
+                margin: auto;
+                margin-top: 40px;
+                clear: both;}
+.logoContainer{width:30%}
+.logo{float: left;
+    width: 100%;}
+
+.socialMedialink{list-style: none;
+                float: right;
+                max-width: 290px;
+                margin-top: 15px;
+                }
+
+.socialMedialink li{display: inline-block;
+                    margin-left: 10px;}
+/*============================================================
+Header CSS
+============================================================*/
+
+
+
+
+
+
+/*=============================================================
+Navigation Manu CSS
+===============================================================*/
+#mainMenue_container{
+    
+    
+                    max-width: 990px;
+                    width:100%;
+                    margin: auto;
+                    height: auto;
+                    background-image: linear-gradient( #525252 , #000000);
+                    border-radius: 5px;}
+
+
+.navManue{width: 97%;
+            max-width: 885px;
+        margin: auto;
+       }
+.line{display: inline-block;
+        padding:  13px 0px 13px 0px ;
+        margin-left: 10px;
+        position: relative;
+        
+        }
+.line a{text-decoration: none;
+    list-style: none;
+     color: white; }
+/*=============
+Navigation Manue Hover & DropDown Manue CSS
+================ */
+
+.line :hover{color:#ba2e1f;}
+.line :hover .subLine{color: white !important;}
+.line:hover a{color: #c82e1d;}
+.subLine {background-color: #c82e1d;
+        list-style: none;
+        width:150px;
+        text-align: center;
+        display: block;
+        position: absolute;
+        left:-999999999px;
+        z-index: 1;
+        }
+
+.line:hover .subLine{left: 0px;}
+
+.subLine li:hover{background-color: #525252;
+                    }
+.line:hover ul li a{color: white;}
+/*=============
+Navigation Manue Hover CSS
+================ */
+
+
+/*=============================================================
+Navigation Manu CSS
+===============================================================*/
+
+
+/*=============================================================
+Hero Area CSS
+===============================================================*/
+.hero_area {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    margin-top: -10px;
+    background-color: #ffffff;
+}
+.main_hero{overflow: hidden;}
+
+.main_hero h1{color: #000000;
+              font-size: 86px;
+              line-height: 1em;
+              margin-top: 55px;
+              font-weight: normal;}
+
+.main_hero p{font-size: 16px;
+             margin-top: 15px;}
+.main_hero  a{
+              font-size: 16px;
+              color:#bf200f;
+              margin-top:25px;
+              text-decoration: none;
+              text-transform: uppercase;}           
+.main_hero  a:hover{
+             color:#ff1900;}  
+/*=============================================================
+Hero Area CSS
+===============================================================*/
+
+/*=============================================================
+Work Area
+===============================================================*/
+.work_area{background: #f2f2f2 ;
+            margin:auto;
+            max-width: 1000px;
+            width: 100%;
+            overflow: hidden;}
+ /* .inner_workarea{display: block;} */
+.child_work{width: 32%;float: left;
+            margin-left: 1%;
+           }
+
+.work_area h3{color: #333333;
+              font-size: 26px;
+              font-weight: normal;
+              margin: 35px 0px 35px;}
+
+.work_area a{color: #b92d1f;
+             font-size: 14px;
+             text-decoration: none;
+             font-weight: normal;
+             float: right;
+             margin-top: 8px;}
+.work_area a:hover{color: #640000;}
+
+
+.work_area p{font-size: 14px;
+              font-weight: normal;
+              color: #878787;}
+.work_area h4{color: #878787;
+              font-size: 14px;}
+.about_area{float: left;}
+
+.about_area img{width: 99%;
+                margin:auto;
+                margin-bottom:10px;}
+
+.about_area p{margin: 12px 0px 0px;}
+
+ .child_service{
+              width:100%;
+              overflow: hidden;
+              margin-bottom: 25px;}
+.child_image{
+            width: 22%;
+            float: left;
+}
+
+.child_text{
+            width: 78%;
+            float: right;
+}
+.comment_title{width: 98%;
+               overflow: hidden;
+} 
+.comment_title h4{background-image: url(img/invertedcoma.jpg);
+                    font-size: 20px;
+                    background-repeat: no-repeat;
+                    padding-bottom: 12px;
+                    overflow: hidden;
+                }
+.comment_title span{font-weight: normal;}
+.contact_us{width: 100%;}
+
+/*=============================================================
+Work Area
+===============================================================*/
+
+/*=============================================================
+Footer Area
+===============================================================*/
+
+.footer_area{max-width: 1000px;
+             width: 100%;
+             margin: auto;
+             overflow: hidden;
+             font-size: 14px;
+             color: #666666;
+             margin-top: 30px;}
+
+.footer_area h4{font-size: 17px;
+                font-weight: normal;
+                padding: 20px 0px 30px;
+                border-top: #666666 3px solid;}
+.footer_area a{font-size: 14px;
+                text-decoration: none;
+                color: #b92d1f;}
+.sub_container{width: 22%;
+               float: left;
+               margin: 0 2% 0;
+               
+               }
+.tweets{margin-left: 0;}
+.tweets div{margin-bottom: 25px;}
+.contact{margin-right: 0;}
+.qLinks ul li{padding: 2px;
+              margin-bottom: 5px;
+              list-style: none;
+             border-bottom: #888888 1px solid;}
+.qLinks ul li a{color: #666666;}
+.Bposts h5{font-size: 15px;
+          margin: 0;
+          padding: 0px;}
+.dtls {margin-bottom: 5px;
+          font-size: 14px;
+          line-height: 1.4em;
+        }
+.sub_Bpost{overflow: hidden;
+          width: 100%;
+          margin-bottom: 25px;}
+.ipAdd{font-size: 13px; 
+       color: #505050;
+       line-height: 0.9em;
+        margin-bottom:15px;}
+.read_me{float: right;
+        margin-top: 5px;}
+.contact form input{padding: 10px;
+                    max-width:200px;
+                    width:98%;
+                    margin-bottom: 9px;
+                    background-color: #f2f2f2;
+                    border-radius: 7px;
+                    border: none;}
+#massage{max-width:200px;
+        width:98%;
+        margin-bottom: 6px;
+        background-color: #f2f2f2;
+        border-radius: 7px;
+        border: none;
+        height: 120px;
+        font-size: 14px;
+        font-family: Georgia;
+        padding: 10px;
+        resize: none;}
+#submite_form{padding: 15px;
+             width:90px;
+            
+             margin-bottom: 6px;
+             background-color: #f2f2f2;
+             border-radius: 5px;
+             border: none;
+            color: #b92d1f;}
+#submite_form:hover{color: white;
+           background-color: #b92d1f;}
+/*=============================================================
+Footer Area
+===============================================================*/
+
+
+/*=============================================================
+Copyright Area
+===============================================================*/
+.copyright_area{background-color: #f2f2f2;
+                max-width: 1015px;
+                width: 100%;
+                font-size: 14px;
+                margin:auto;
+                height: 65px;
+                }
+.left_copyright{float: left; 
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-bottom: 20px;}
+.right_copyright{float: right;
+                margin-top: 20px;
+                margin-right: 10px;
+                margin-bottom: 20px;}
+
+/*=============================================================
+Copyright Area
+===============================================================*/
+.main_slider{margin: auto;}
+
+
+
+
+/*=============================================================
+Form Design
+===============================================================*/
+
+/*=============================================================
+Form Design
+===============================================================*/
